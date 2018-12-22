@@ -1,0 +1,47 @@
+html {
+  font-family: 'Caveat', cursive;
+  font-size: 80;
+}
+
+p {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.block {
+  text-align: center;
+}
+
+#rock {
+  background: url("/rock.jpeg");
+  background-size: cover;
+  background-image: no-repeat;
+  border: 0;
+  height: 200px;
+  width: 200px;
+  color: transparent;
+}
+
+#paper {
+  background: url("/paper.jpeg");
+  background-size: cover;
+  background-image: no-repeat;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 0;
+  height: 200px;
+  width: 200px;
+  color: transparent;
+}
+
+#scissors {
+  background: url("/scissors2.jpeg");
+  background-size: cover;
+  background-image: no-repeat;
+  border: 0;
+  height: 200px;
+  width: 200px;
+  color: transparent;
+}

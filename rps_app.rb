@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require 'pry'
 require_relative './lib/game_result.rb'
 
 class Game < Sinatra::Base
@@ -22,7 +23,7 @@ class Game < Sinatra::Base
     erb :options
   end
 
-  post '/p1move' do
+  get '/p1move' do
     session[:option] = params[:option]
     redirect '/result'
   end

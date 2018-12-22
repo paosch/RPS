@@ -1,3 +1,4 @@
+require 'pry'
 require 'game_result'
 describe GameResult do
   it 'shows the game result' do
