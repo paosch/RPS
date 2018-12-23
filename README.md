@@ -52,4 +52,4 @@ https://rpspaolap.herokuapp.com/
 
 
 ## Work in progress
-As soon as I have more time to continue with this application, I will work on style (CSS).
+As soon as I have more time to continue with this application, I will add a score counter.

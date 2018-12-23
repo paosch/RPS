@@ -1,10 +1,17 @@
 <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Josefin+Sans:300" rel="stylesheet">
+  </head>
 
-  <p>You chose
-    <%=@player_move%>
-    and the computer chose
-    <%=@compu_move%></p>
+  <body>
+    <h1 id="one">You chose
+      <strong><%=@player_move%></strong>
+      and the computer chose
+      <strong><%=@compu_move%></strong>
+    </h1>
 
-  <h1><%= @final %></h1>
-
+    <h1><%= @final %></h1>
+    <p id="celebration">🎉</p>
+  </body>
 </html>
